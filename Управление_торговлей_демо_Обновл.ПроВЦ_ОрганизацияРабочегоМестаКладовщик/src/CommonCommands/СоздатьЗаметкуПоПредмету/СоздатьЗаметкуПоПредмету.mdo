@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd22de3c-6c02-42f0-8416-06f70c5414e7">
+  <name>СоздатьЗаметкуПоПредмету</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <group>Checked</group>
+  </extension>
+  <group>CommandGroup.Органайзер</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce9b0170-1bda-4c0d-8596-df6323c308be">
+  <producedTypes>
+    <objectType typeId="4d45cfef-50ac-43fe-9a41-0fd255bdbf22" valueTypeId="04f5d893-b989-4cbc-97b2-dabff77203ed"/>
+    <managerType typeId="0ea83f55-fc7f-4a22-a52e-cbdf8538fffc" valueTypeId="e5d63093-f299-4b73-9a58-5ae09acee53e"/>
+  </producedTypes>
+  <name>ЖурналДокументовПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="f42a2b9b-2857-42ce-8275-2d93aac95665">
+    <name>СписокДокументов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

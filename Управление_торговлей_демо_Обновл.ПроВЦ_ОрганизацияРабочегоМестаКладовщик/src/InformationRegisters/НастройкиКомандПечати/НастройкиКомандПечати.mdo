@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b6b6cfc-653c-4812-bf9b-9a88dbc51858">
+  <producedTypes>
+    <selectionType typeId="88b1db78-7386-4e54-a002-9c08a669e428" valueTypeId="a78a0503-4bb9-48c9-89e7-05cf1ee80f72"/>
+    <listType typeId="ed0085f7-acf7-4dd7-ac5d-6d2ed30418d4" valueTypeId="9e3fcc24-2dbd-4094-b284-4c38f211fde3"/>
+    <managerType typeId="a3d0c11f-baed-4584-a683-07b5d07575a4" valueTypeId="0d770c29-6f15-4851-ab6e-9bf1e5cc7fe7"/>
+    <recordSetType typeId="101c2199-43ed-477e-bf06-243af1c45118" valueTypeId="42e804dd-646a-4815-ad78-1c891d3db332"/>
+    <recordKeyType typeId="2b93e7f9-ee75-440c-af42-b1ee0e67d14b" valueTypeId="193f7c61-ef09-4358-b88a-4becee463839"/>
+    <recordType typeId="b3201c3f-eeff-4f25-a2ae-a727a0ef03e2" valueTypeId="8ab3eab5-90f5-4548-8c62-760e85b4031a"/>
+    <recordManagerType typeId="ca08c28e-c4b5-4caf-bc74-aa8df17070d1" valueTypeId="dff41ede-5dd0-4d19-b4e5-7258d35ba81f"/>
+  </producedTypes>
+  <name>НастройкиКомандПечати</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

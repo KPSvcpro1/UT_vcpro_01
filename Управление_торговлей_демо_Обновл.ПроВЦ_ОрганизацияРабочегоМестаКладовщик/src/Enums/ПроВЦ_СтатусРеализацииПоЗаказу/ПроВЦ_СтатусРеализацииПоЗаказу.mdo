@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52115a25-02b4-42d8-9985-6ff0674bb508">
+  <producedTypes>
+    <refType typeId="aa48f012-36fc-43b0-97f6-26d762dd0914" valueTypeId="c4ec077a-9e12-4371-9b4f-c4bb659425d8"/>
+    <listType typeId="0e4a148b-222e-4dd8-8f00-94db630f9609" valueTypeId="2b5ee559-3c7b-44ee-9fa7-27c61efbeb3a"/>
+    <managerType typeId="f407160d-0fd2-42d1-9c15-6baa3d5df01a" valueTypeId="b454d81c-4eab-4fb9-b40c-b93c6f2c1a04"/>
+  </producedTypes>
+  <name>ПроВЦ_СтатусРеализацииПоЗаказу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус реализации по заказу</value>
+  </synonym>
+  <comment>Статус заказа - &quot;К сбору, Собран, Отгружен&quot;</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3ef748b-6506-4c01-b002-a540aaa30fa1">
+    <name>КСбору</name>
+    <synonym>
+      <key>ru</key>
+      <value>К сбору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec8adee5-4de9-4f0e-834e-fa54839de7f0">
+    <name>Собран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32cc6fe4-ac00-4605-a581-92c1c824d566">
+    <name>Откружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откружен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

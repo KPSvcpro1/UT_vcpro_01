@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b1bb91e6-a82a-4a6b-a837-26bb89cf6c02">
+  <name>ПроВЦ_ОрганизацияРабочегоМестаКладовщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация рабочего места кладовщик</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <homePageWorkArea>Extended</homePageWorkArea>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9fad353a-a55f-49ef-9963-94cbe44bf1f3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5a6b2560-ae7e-404f-b470-2d0a1e35ecef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b0d88eab-1fce-4bdf-9b9d-598e101e9e00"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2230d460-b057-42f3-901a-cc00c745cd93"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="154ccedc-cf61-4408-9110-b31bc6f11f67"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="85d32bf0-8d62-428c-af44-f2e354ded29e"/>
+  <namePrefix>ПроВЦ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ПродвижениеВЦ +кпс+</vendor>
+  <version>1.02.01</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="67e8dcc8-7157-4723-a981-e82749656cec">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПроверкиКонтрагента</commonPictures>
+  <commonPictures>CommonPicture.СостоянияДокумента</commonPictures>
+  <roles>Role.ПроВЦ_Кладовщик</roles>
+  <commonModules>CommonModule.ПроВЦ_Сервер</commonModules>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьSMS</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПисьмо</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <enums>Enum.ПроВЦ_СтатусРеализацииПоЗаказу</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
+  <dataProcessors>DataProcessor.ПомощникЗачетаОплат</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналДокументовПродажи</dataProcessors>
+  <informationRegisters>InformationRegister.НастройкиКомандПечати</informationRegisters>
+</mdclass:Configuration>

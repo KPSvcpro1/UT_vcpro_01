@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c91f5e9-ad53-45c0-af3e-7dc7764240b1">
+  <name>ДополнительныеСведенияКоманднаяПанель</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <group>Checked</group>
+  </extension>
+  <group>FormCommandBarImportant</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

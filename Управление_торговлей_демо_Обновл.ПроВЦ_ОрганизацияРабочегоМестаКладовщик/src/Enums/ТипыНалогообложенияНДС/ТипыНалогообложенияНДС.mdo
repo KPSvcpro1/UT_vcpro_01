@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04bb7cdf-4b94-4f88-97a0-bd5c83b81119">
+  <producedTypes>
+    <refType typeId="0d282bb3-fe0d-475f-85f2-cad30745f649" valueTypeId="f1e0a81a-f3e1-4d7c-b9b2-dd3df7b580a4"/>
+    <listType typeId="5b129e49-cb33-4e6c-b403-05998aaafff1" valueTypeId="1df170ae-3d29-4145-8afd-eed635f11407"/>
+    <managerType typeId="6764195f-51bc-4e37-b267-219192fde2ce" valueTypeId="d6ccf036-dd22-42b2-ae19-dfc545eda1b4"/>
+  </producedTypes>
+  <name>ТипыНалогообложенияНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="23cb8257-2a29-4bcf-8ae8-0a63ea2d7762">
+    <name>ПродажаНеОблагаетсяНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="96f7b2ce-239f-415e-b168-80c6bef2a3e4">
+    <name>ПродажаОблагаетсяНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="70a545a9-5d52-4969-b331-1553f7f396a2">
+    <name>ПродажаНаЭкспорт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="51ec6e1b-4284-4595-a8d4-f972b70aacd0">
+    <name>ПродажаОблагаетсяЕНВД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

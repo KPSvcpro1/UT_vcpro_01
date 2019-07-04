@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8d92c2-120b-4b21-a9a1-8440e1c11fd8">
+  <name>ПроВЦ_Кладовщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кладовщик</value>
+  </synonym>
+</mdclass:Role>
